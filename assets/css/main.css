@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: calc(100% - 300px);
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section{
+    padding: 130px 0px;
+}
+
+
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user{
+    flex-basis: calc(33% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.user:hover{
+    transform: scale(1.05);
+}
